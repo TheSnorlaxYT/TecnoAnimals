@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+
+}
+.cabeza {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    background-color: black;
+    
+}
+
+.cabeza ul li{
+    margin: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cuerpo{
+    height: 100%;
+    background-image: url(../Recursos/FondoPagina.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enlace{
+    color:black
+}
+.enlace:hover{
+    color: rgba(17, 0, 255, 0.897);
+}
+.boton{
+    background-color: aliceblue;
+    transition: .3s;
+}
+.boton:hover{
+    background-color: chartreuse;
+}
+
+.login {
+    background-color: aqua;
+}
+.login:hover{
+    background-color: rgb(234, 255, 0);
+}
+
+.pie{
+    
+    height: 10%;
+    background-color: black;
+}
